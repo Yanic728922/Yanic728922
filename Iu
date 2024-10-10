@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studenten-Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf deinem Studenten-Portal</h1>
+    </header>
+    
+    <nav>
+        <a href="#praxispartner">Praxispartner</a>
+        <a href="#nebenjob">Nebenjob</a>
+        <a href="#partys">Partys & Restaurants</a>
+        <a href="#kontakte">Kontakte verknüpfen</a>
+    </nav>
+
+    <div class="container">
+        <section id="praxispartner">
+            <h2>Praxispartner</h2>
+            <p>Finde passende Praxispartner für dein duales Studium.</p>
+        </section>
+        
+        <section id="nebenjob">
+            <h2>Nebenjob</h2>
+            <p>Entdecke Nebenjobangebote für Studierende.</p>
+        </section>
+        
+        <section id="partys">
+            <h2>Partys & Restaurants</h2>
+            <p>Verpasse keine Partys und entdecke die besten Restaurants in deiner Umgebung.</p>
+        </section>
+        
+        <section id="kontakte">
+            <h2>Kontakte verknüpfen</h2>
+            <p>Netzwerke mit anderen Studierenden und baue dir ein starkes Kontaktnetzwerk auf.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Studenten-Portal. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
